@@ -12,7 +12,5 @@ clap = { workspace = true }
 anyhow = { workspace = true }
 tracing = { workspace = true }
 tracing-subscriber = { workspace = true }
-serde = { workspace = true }
-serde_json = { workspace = true }
 kube = { version = "0.95", features = ["runtime", "derive"] }
 k8s-openapi = { version = "0.23", features = ["latest"] }
